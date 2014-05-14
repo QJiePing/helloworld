@@ -4,7 +4,7 @@ class MainPage(webapp2.RequestHandler):
     
     def get(self):
         self.response.headers['Content-Type'] = 'text/plain'
-        self.response.write('Hello, Orbital World!')
+        self.response.write('Hello, Welcome to the Orbital World!')
         
 
 app = webapp2.WSGIApplication([('/', MainPage)],
